@@ -88,3 +88,28 @@ h1 {
   text-align: center;
   font-weight: bold;
 }
+
+
+/* adicional para la etiqueta de nuevo cliente */
+/* Estilo para el enlace "Crear nuevo cliente" */
+.formulario a {
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.formulario a span {
+  display: inline-block;
+  background-color: #0077b6;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 0.95em;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.formulario a:hover span {
+  background-color: #005f91;
+  transform: scale(1.05);
+}

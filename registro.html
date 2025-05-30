@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro Cliente</title>
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+  <div class="contenido">
+    <div class="formulario">
+      <h1>Crear Nuevo Cliente</h1>
+      <form id="form" name="form" method="post">
+        <input type="number" id="t1" name="t1" class="texto" placeholder="Ingrese identificacion" required>
+        <input type="text" id="t2" name="t2" class="texto" placeholder="Ingrese Nombres" required>
+          <input type="text" id="t3" name="t3" class="texto" placeholder="Ingrese Telefono" required>
+           <input type="email" id="t4" name="t4" class="texto" placeholder="Ingrese correo valido" required>
+            <input type="password" id="t5" name="t5" class="texto" placeholder="Ingrese Contraseña" required>
+        <button class="boton" type="submit">Validar</button>
+        <div>
+        <a href="index.html"><span>😁 Ir a login</span></a>
+    </div>
+      </form>
+      <div id="mensaje-registro" class="mensaje-oculto"></div>
+    </div>
+  </div>
+  <script src="js/registro.js"></script>
+</body>
+</html>
